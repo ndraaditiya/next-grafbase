@@ -5,6 +5,7 @@ const nextConfig = {
   },
   experimental: {
     serverComponentsExternalPackages: ['cloudinary', 'graphql-request'],
+    serverActions: true,
   },
 }
 
